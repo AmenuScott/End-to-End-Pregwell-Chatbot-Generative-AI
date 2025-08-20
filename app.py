@@ -35,7 +35,7 @@ def download_hugging_face_embeddings():
 embeddings = download_hugging_face_embeddings()
 
 # === Pinecone Vector Store ===
-index_name = "legalconnect-bot"
+index_name = "pregwellbot"
 docsearch = PineconeVectorStore.from_existing_index(
     index_name=index_name,
     embedding=embeddings
